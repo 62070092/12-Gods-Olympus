@@ -1,0 +1,19 @@
+/*background*/
+#background{
+    width:1000px; 
+    height:600px; 
+    background:rgb(46, 53, 110);
+    position:relative;
+    overflow:hidden;
+  }
+
+/*earth*/
+  .earth{
+    width:350px;
+    height:350px;
+    background:green;
+    border-radius:100%;
+    position:absolute;
+    bottom:100px;
+    left:340px;
+  }
