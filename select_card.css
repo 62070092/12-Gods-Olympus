@@ -1,0 +1,167 @@
+.zeus {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e7544d15017907.5628bf11501f3.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .zeus:hover {
+    transform: scale(1.5); 
+  }
+  
+  .hera {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/df6fc115017907.5628bf7b5d3ef.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .hera:hover {
+    transform: scale(1.5); 
+  }
+  
+  .hermes {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/fcb0b915017907.5628c07ec6910.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .hermes:hover {
+    transform: scale(1.5); 
+  }
+  
+  .hephaestus {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/d0a2a715017907.5628bf7baf48f.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .hephaestus:hover {
+    transform: scale(1.5);
+  }
+  
+  .artemis {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/954d9b15017907.5628c0c85c6ab.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .artemis:hover {
+    transform: scale(1.5);
+  }
+  
+  .apollo {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/3b945315017907.5628bf7bbc587.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .apollo:hover {
+    transform: scale(1.5);
+  }
+  
+  .ares {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/c27db715017907.5628bf84414bb.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .ares:hover {
+    transform: scale(1.5);
+  }
+  
+  .athena {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/53f2bc15017907.5628c02631493.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .athena:hover {
+    transform: scale(1.5);
+  }
+  
+  .poseidon {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e7db6415017907.5628c0267b88e.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .poseidon:hover {
+    transform: scale(1.5);
+  }
+  
+  .dionysus {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/7689ee15017907.5628c02683414.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .dionysus:hover {
+    transform: scale(1.5);
+  }
+  
+  .demeter {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/cae9a015017907.5628c07eed998.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .demeter:hover {
+    transform: scale(1.5);
+  }
+  
+  .apherodite {
+    float:left;
+    padding: 50px;
+    transition: transform 1s;
+    width: 200px;
+    height: 500px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c213915017907.5628c07f013f0.jpg");
+    background-size:cover;
+    background-position:center;
+  }
+  .apherodite:hover {
+    transform: scale(1.5);
+  }

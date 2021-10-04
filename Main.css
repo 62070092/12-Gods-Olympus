@@ -1,1 +1,13 @@
+img{
+    width:100%;
+    height:100vh;
+  }
 
+.box{
+    background: cyan;
+    border-radius:10px;
+    box-shadow:4px 8px 0px #0003;
+    padding:1em;
+    min-height:100px;
+    min-width:300px;
+}
