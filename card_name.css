@@ -69,6 +69,7 @@
   .group{
     position: absolute;
     bottom:5%;
+    right:5%;
   }
   .btn{
     align-items: right;
