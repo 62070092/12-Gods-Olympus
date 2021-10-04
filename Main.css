@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-  body{
-    font-family: 'Kanit', sans-serif;
+body{
+	background-image: url(reference/bg-01.jpg);
 }
 
 .box{
@@ -10,4 +9,35 @@
     padding:1em;
     min-height:100px;
     min-width:300px;
+
+}
+
+.txt{
+	width: 1200px;
+	height: 100px;
+	position: absolute;
+	top:40%;
+    right:25%;
+    left:50%;
+    margin-left:-600px;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#F0A436, #1D1308);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn{
+	font-size:0.8em;
+	width: 300px;
+	height: 100px;
+	position: absolute;
+    bottom:10%;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+
+}
+
 }
