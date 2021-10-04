@@ -161,19 +161,19 @@
    --current-card-rotation-offset: 0;
    --card-translateX-offset: 0;
    --card-rotation-offset: var(--current-card-rotation-offset);
-   --card-scale-offset: 3;
+   --card-scale-offset: 1.2;
    --opacity: 0.8;
 }
  .card.previous--card {
-   --card-translateX-offset: calc(-1 * var(--card-width) * 3);
+   --card-translateX-offset: calc(-1 * var(--card-width) * 1.1);
    --card-rotation-offset: 25deg;
 }
  .card.next--card {
-   --card-translateX-offset: calc(var(--card-width) * 3);
+   --card-translateX-offset: calc(var(--card-width) * 1.1);
    --card-rotation-offset: -25deg;
 }
  .card.previous--card, .card.next--card {
-   --card-scale-offset: 2;
+   --card-scale-offset: 0.9;
    --opacity: 0.4;
 }
  .infoList {
