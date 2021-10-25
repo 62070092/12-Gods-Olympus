@@ -20,6 +20,9 @@ function swapCards(direction) {   //ใส่การ์ดเพิ่ม
 	const previousCardEl = cardsContainerEl.querySelector(".previous--card");
 	const nextCardEl = cardsContainerEl.querySelector(".next--card");
 
+	const hermesCardEl = cardsContainerEl.querySelector(".hermes--card");
+	
+
 	const currentBgImageEl = appBgContainerEl.querySelector(".current--image");
 	const previousBgImageEl = appBgContainerEl.querySelector(".previous--image");
 	const nextBgImageEl = appBgContainerEl.querySelector(".next--image");
@@ -33,6 +36,8 @@ function swapCards(direction) {   //ใส่การ์ดเพิ่ม
 		currentCardEl.classList.remove("current--card");
 		previousCardEl.classList.remove("previous--card");
 		nextCardEl.classList.remove("next--card");
+
+		hermesCardEl.classList.remove("hermes--card");
 
 		currentBgImageEl.classList.remove("current--image");
 		previousBgImageEl.classList.remove("previous--image");
@@ -51,6 +56,8 @@ function swapCards(direction) {   //ใส่การ์ดเพิ่ม
 			previousCardEl.classList.add("next--card");
 			nextCardEl.classList.add("current--card");
 
+			hermesCardEl.classList.add("hermes--card");
+
 			currentBgImageEl.classList.add("previous--image");
 			previousBgImageEl.classList.add("next--image");
 			nextBgImageEl.classList.add("current--image");
@@ -64,6 +71,8 @@ function swapCards(direction) {   //ใส่การ์ดเพิ่ม
 			previousCardEl.classList.add("current--card");
 			nextCardEl.classList.add("previous--card");
 
+			nextCardEl.classList.add("current--card");
+
 			currentBgImageEl.classList.add("next--image");
 			previousBgImageEl.classList.add("current--image");
 			nextBgImageEl.classList.add("previous--image");
@@ -76,6 +85,8 @@ function changeInfo(direction) { //สลับการ์ด
 	let previousInfoEl = cardInfosContainerEl.querySelector(".previous--info");
 	let nextInfoEl = cardInfosContainerEl.querySelector(".next--info");
 
+	let hermesInfoEl = cardInfosContainerEl.querySelector(".hermes--info");
+
 	
 
 	function swapInfosClass() {
@@ -87,10 +98,14 @@ function changeInfo(direction) { //สลับการ์ด
 			currentInfoEl.classList.add("previous--info");
 			nextInfoEl.classList.add("current--info");
 			previousInfoEl.classList.add("next--info");
+
+			hermesInfoEl.classList.add("hermes--info");
 		} else if (direction === "left") {
 			currentInfoEl.classList.add("next--info");
 			nextInfoEl.classList.add("previous--info");
 			previousInfoEl.classList.add("current--info");
+			
+			hermesInfoEl.classList.add("hermes--info");
 		}
 	}
 }
