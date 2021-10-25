@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 body{
+    height: 100%;
+    margin: 0;
+    background-image: url("reference/bg-02.png");
     background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
     background-size: cover;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
 }
 
 .container{
@@ -46,16 +49,14 @@ body{
 
 .row{
     margin-bottom: 8%;
-    display: table;
-    width: 100%;
+    
 }
 .col{
-    display: table-cell;
-    padding: 5vh;
+    width: 100%;
 }
 
 .choice{
-    width: 100%;
+    width: 85%;
 	height: 15vh;
     background: linear-gradient(45deg, transparent 5%, #fad37f 5%);
     border: 0;
@@ -65,7 +66,19 @@ body{
     box-shadow: 8px 0px 0px #f89730;
     outline: transparent;
     position: relative;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    
 }
 .question{
-    padding-top: 10%;
+    margin-top: 10%;
+    padding: 2rem;
+    background-color: white;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.choice:hover{
+    background: linear-gradient(45deg, transparent 5%, #ffb62e 5%);
 }
