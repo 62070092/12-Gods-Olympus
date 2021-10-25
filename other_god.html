@@ -14,6 +14,11 @@
 <body>
   
 <div class="app">
+
+  <button class="btn-left" onclick="location.href='other_god.html'">PERVIOUS</button>
+  <button class="btn-center" onclick="location.href='other_god.html'">HOME</button>
+  <button class="btn-right" onclick="location.href='other_god.html'">NEXT</button>
+
   <div class="cardList">
     <button class="cardList__btn btn btn--left">
       <div class="icon">
@@ -24,9 +29,8 @@
     </button>
 
     <div class="cards__wrapper">
-      <div class="card current--card">
-        
-          <input onclick="location.href='zeus.html'"  class="card__image" type="image" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e7544d15017907.5628bf11501f3.jpg" alt="" />
+      <div class="card current--card" onclick="location.href='zeus.html'">
+          <input class="card__image" type="image" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e7544d15017907.5628bf11501f3.jpg" alt="" />
       </div>
 
       <div class="card next--card">
@@ -89,6 +93,7 @@
 <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
 
