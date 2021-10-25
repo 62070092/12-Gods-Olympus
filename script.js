@@ -69,6 +69,7 @@ function swapCards(direction) {
 			nextBgImageEl.classList.add("previous--image");
 		}
 	}
+	
 }
 
 function changeInfo(direction) {
@@ -95,6 +96,8 @@ function changeInfo(direction) {
 	}
 }
 
+
+
 function updateCard(e) {
 	const card = e.currentTarget;
 	const box = card.getBoundingClientRect();
@@ -111,10 +114,6 @@ function updateCard(e) {
 		rotateY: `${angle}deg`,
 	});
 }
-
-
-
-
 
 
 function init() {
