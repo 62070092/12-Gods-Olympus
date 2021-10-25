@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-body{
+body,html{
     height: 100%;
     margin: 0;
     background-image: url("reference/bg-02.png");
@@ -11,14 +11,27 @@ body{
 
 .container{
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: 1024px;
     padding: 1rem;
     margin: auto;
     box-sizing: border-box;
     overflow: hidden;
+    
   }
-
+.card-content{
+    background:#fff;
+    border-radius:10px;
+    box-shadow:4px 8px 0px #0003;
+    padding:1em;
+    min-height:auto;
+    min-width:100%;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .txt{
 	width: 1200px;
 	height: 100px;
@@ -67,18 +80,37 @@ body{
     outline: transparent;
     position: relative;
     font-family: 'Kanit', sans-serif;
-    font-size: 1.5rem;
-    
+    font-size: 1.4rem;
+    transition: all .35s;
 }
 .question{
-    margin-top: 10%;
+
     padding: 2rem;
     background-color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     border-radius: 30px;
     margin-bottom: 5%;
 }
 
-.choice:hover{
+.choice:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
     background: linear-gradient(45deg, transparent 5%, #ffb62e 5%);
-}
+    transition: all .35s;
+  }
+  
+  .choice:hover{
+    color: black;
+  }
+  
+  .choice:hover:after{
+    width: 100%;
+  }
+  .choice h2{
+    position: relative;
+    z-index: 2;
+  }
