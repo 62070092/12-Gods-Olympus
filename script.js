@@ -95,6 +95,8 @@ function changeInfo(direction) { //สลับการ์ด
 	}
 }
 
+
+
 function updateCard(e) {
 	const card = e.currentTarget;
 	const box = card.getBoundingClientRect();
