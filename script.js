@@ -96,6 +96,8 @@ function changeInfo(direction) {
 	}
 }
 
+
+
 function updateCard(e) {
 	const card = e.currentTarget;
 	const box = card.getBoundingClientRect();

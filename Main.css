@@ -4,6 +4,7 @@ body{
     background-image: url(reference/bg-01.png);
     display: flex;
 }
+
 .container{
     width: 100%;
     height: auto;
