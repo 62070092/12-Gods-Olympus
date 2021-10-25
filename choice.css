@@ -80,6 +80,9 @@ body,html{
     font-family: 'Kanit', sans-serif;
     font-size: 1.4rem;
     transition: all .35s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .question{
 
