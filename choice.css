@@ -1,20 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-body{
+body,html{
+    height: 100%;
+    margin: 0;
+    background-image: url("reference/bg-04.jpg");
     background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
     background-size: cover;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
 }
 
 .container{
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: 1024px;
     padding: 1rem;
     margin: auto;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+.card-content{
+    background:#fff;
+    border-radius:10px;
+    box-shadow:14px 14px 0px #0003;
+    padding:1em;
+    min-height:auto;
+    min-width:90%;
+}
 
 .txt{
 	width: 1200px;
@@ -46,16 +60,14 @@ body{
 
 .row{
     margin-bottom: 8%;
-    display: table;
-    width: 100%;
+    
 }
 .col{
-    display: table-cell;
-    padding: 5vh;
+    width: 100%;
 }
 
 .choice{
-    width: 100%;
+    width: 85%;
 	height: 15vh;
     background: linear-gradient(45deg, transparent 5%, #fad37f 5%);
     border: 0;
@@ -65,7 +77,38 @@ body{
     box-shadow: 8px 0px 0px #f89730;
     outline: transparent;
     position: relative;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4rem;
+    transition: all .35s;
 }
 .question{
-    padding-top: 10%;
+
+    padding: 2rem;
+    background-color: white;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    margin-bottom: 5%;
 }
+
+.choice:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, transparent 5%, #ffb62e 5%);
+    transition: all .35s;
+  }
+  
+  .choice:hover{
+    color: black;
+  }
+  
+  .choice:hover:after{
+    width: 100%;
+  }
+  .choice h2{
+    position: relative;
+    z-index: 2;
+  }
