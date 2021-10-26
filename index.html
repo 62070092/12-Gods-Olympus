@@ -8,12 +8,6 @@
 </head>
 <body>
     <div class="container ">
-        <div class="header flex-center">
-            <h1 class="text-header">Begin your journey to mount olympus</h1> 
-        </div>
-        <!-- <button id="btn-enter" type=button onclick="location.href='question-0.html'" class="btn btn-warning btn-lg font-weight-bold text-white">
-            <h2>ENTER</h2>
-        </button> -->
         <h2>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore magni odit nisi, eius a, fugit doloremque ut provident, ipsum sunt enim rerum commodi illum asperiores voluptatem? Deleniti eius expedita accusantium.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis neque qui quo commodi consequatur alias labore et nostrum expedita. Minima inventore vero, fuga alias corrupti consequatur. Quod accusantium provident commodi?
@@ -46,5 +40,30 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, cumque tenetur sed tempora, illo sapiente impedit at voluptates quis dolor veniam voluptate, pariatur fuga fugit laborum eius aperiam ad ipsum?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ratione reprehenderit quis dignissimos porro necessitatibus non facere explicabo eius temporibus vel repudiandae dolorum molestiae culpa, doloribus voluptatum illum consequatur ut?
         </h2>
+        <div class="header flex-center">
+            <h1 id="textOpacity" class="text-header">Begin your journey to mount olympus</h1> 
+        </div>
+        <div class="flex-center">
+            <button id="btn-enter" type=button onclick="location.href='question-0.html'" class="start-btn">
+                <h2>ENTER</h2>
+            </button>
+        </div>
+        
     </div>
+    <script>
+        document.body.onscroll = function () {
+        let scrollY = window.scrollY;
+        let viewHeight = window.innerHeight;
+        let graphY = document.querySelector('#textOpacity').offsetTop;
+        document.body.style.setProperty("--scroll", scrollY);
+        
+        
+        if (scrollY+viewHeight-200<=graphY){
+            textOpacity.style.opacity = 0;
+        }
+        else{
+            textOpacity.style.opacity = 100;
+        }
+    };
+    </script>
 </body>
