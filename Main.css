@@ -4,6 +4,7 @@ body{
     background-image: url(reference/bg-01.png);
     display: flex;
 }
+
 .container{
     width: 100%;
     height: auto;
@@ -33,6 +34,7 @@ body{
   background: -webkit-linear-gradient(#F0A436, #1D1308);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 #btn-enter{

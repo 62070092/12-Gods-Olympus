@@ -15,7 +15,7 @@ buttons.next.addEventListener("click", () => swapCards("right"));
 
 buttons.prev.addEventListener("click", () => swapCards("left"));
 
-function swapCards(direction) {   //ใส่การ์ดเพิ่ม
+function swapCards(direction) {
 	const currentCardEl = cardsContainerEl.querySelector(".current--card");
 	const previousCardEl = cardsContainerEl.querySelector(".previous--card");
 	const nextCardEl = cardsContainerEl.querySelector(".next--card");
@@ -29,7 +29,7 @@ function swapCards(direction) {   //ใส่การ์ดเพิ่ม
 
 	removeCardEvents(currentCardEl);
 
-	function swapCardsClass() { //สลับการ์ด
+	function swapCardsClass() {
 		currentCardEl.classList.remove("current--card");
 		previousCardEl.classList.remove("previous--card");
 		nextCardEl.classList.remove("next--card");
@@ -69,9 +69,10 @@ function swapCards(direction) {   //ใส่การ์ดเพิ่ม
 			nextBgImageEl.classList.add("previous--image");
 		}
 	}
+	
 }
 
-function changeInfo(direction) { //สลับการ์ด
+function changeInfo(direction) {
 	let currentInfoEl = cardInfosContainerEl.querySelector(".current--info");
 	let previousInfoEl = cardInfosContainerEl.querySelector(".previous--info");
 	let nextInfoEl = cardInfosContainerEl.querySelector(".next--info");
@@ -95,6 +96,8 @@ function changeInfo(direction) { //สลับการ์ด
 	}
 }
 
+
+
 function updateCard(e) {
 	const card = e.currentTarget;
 	const box = card.getBoundingClientRect();
@@ -111,7 +114,6 @@ function updateCard(e) {
 		rotateY: `${angle}deg`,
 	});
 }
-
 
 
 function init() {

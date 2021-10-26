@@ -266,4 +266,56 @@
  .support a:hover {
    transform: scale(1.1);
 }
- 
+
+.btn-left{
+  width: 170px;
+  background-color:  #faa436;
+  text-align: center;
+  font-size: 1.75rem;
+  border-radius: 10px;
+  margin-right: 0%;
+  padding: 5px 5px 5px;
+  margin-bottom: -600px;
+  margin-left: 70px;
+}
+
+.btn-right{
+  width: 170px;
+  background-color:  #faa436;
+  text-align: center;
+  font-size: 1.75rem;
+  border-radius: 10px;
+  margin-left: 0%;
+  padding: 5px 5px 5px;
+  margin-bottom: -600px;
+  margin-left: 10px;
+}
+
+.btn-center{
+  width: 170px;
+  background-color: #faa436;
+  text-align: center;
+  font-size: 1.75rem;
+  border-radius: 10px;
+  padding: 5px 5px 5px;
+  margin-bottom: -600px;
+  margin-left: 70px;
+}
+
+.btn-left:hover{
+  opacity: 5;
+  background-color: burlywood;
+  transform: scale(1.2);
+}
+
+.btn-center:hover{
+  opacity: 5;
+  background-color: burlywood;
+  transform: scale(1.2);
+}
+
+.btn-right:hover{
+  opacity: 5;
+  background-color: burlywood;
+  transform: scale(1.2);
+}
