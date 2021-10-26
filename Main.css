@@ -10,6 +10,9 @@ body,html{
     height: 100%;
     font-family: 'Kanit', sans-serif;
 }
+body{
+    --scrollY:0;
+}
 .container{
     width: 100%;
     height: auto;
@@ -34,7 +37,7 @@ body,html{
   text-align: center;
 }
 .header{
-    min-height:auto;
+    min-height:70vh;
     min-width:90%;
     padding:1em;
 }
@@ -49,3 +52,9 @@ body,html{
     margin-left:-150px;
 
 } */
+
+
+#textOpacity{
+    opacity: 0%;
+    transition: opacity 1s;
+}
