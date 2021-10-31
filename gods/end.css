@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+
+body,html{
+    height: 100%;
+    margin: 0;
+    background-image: url("/reference/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Pridi', serif;
+}
+body{
+    --scrollY:0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    max-width: 1024px;
+    padding: 1rem;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-header {
+  background: -webkit-linear-gradient(#F0A436, #1D1308);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+  text-align: center;
+}
+.header{
+    min-height:70vh;
+    min-width:90%;
+    padding:1em;
+}
+/* #btn-enter{
+	font-size:0.8em;
+	width: 300px;
+	height: 100px;
+	position: absolute;
+    bottom:10%;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+
+} */
+
+
+#textOpacity{
+    opacity: 0%;
+    transition: opacity 1s;
+}

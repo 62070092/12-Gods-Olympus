@@ -32,6 +32,7 @@
     border-radius:10px;
     box-shadow:8px 8px 0px #0003;
     padding:1em;
+    animation: animate 2s ;
     
   }
   .fullwidth{
@@ -63,3 +64,28 @@
   .btn{
     align-items: right;
   }
+
+@keyframes animate{
+  from{
+    transform: scale(0.7)
+  }
+  to{
+    transform: scale(1)
+  }
+}
+
+
+.text{
+  font-size: 5rem;
+  text-align: center;
+  animation: text 3s ;
+}
+
+@keyframes text{
+  from{
+    opacity: 0.5;
+  }
+  to{
+    opacity: 1;
+  }
+}
