@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
 
 :root {
    --card-width: 200px;
@@ -20,6 +20,7 @@
    align-items: center;
    background: rgba(0, 0, 0, 0.787);
    overflow: hidden;
+   font-family: 'Pridi', serif;
 }
  button {
    border: none;
