@@ -121,8 +121,8 @@ function init() {
 	let tl = gsap.timeline();
 
 	tl.to(cardsContainerEl.children, {
-		delay: 0.15,
-		duration: 0.5,
+		delay: 0.1,
+		duration: 0.1,
 		stagger: {
 			ease: "power4.inOut",
 			from: "right",
@@ -131,7 +131,7 @@ function init() {
 		"--card-translateY-offset": "0%",
 	})
 		.to(cardInfosContainerEl.querySelector(".current--info").querySelectorAll(".text"), {
-		delay: 0.5,
+		delay: 0.1,
 		duration: 0.4,
 		stagger: 0.1,
 		opacity: 1,
