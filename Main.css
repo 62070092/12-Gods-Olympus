@@ -53,8 +53,33 @@ body{
 
 } */
 
-
-#textOpacity{
+#textOpacity1{
     opacity: 0%;
-    transition: opacity 1s;
+    transition: opacity 1.5s;
+}
+#textOpacity2{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}#textOpacity3{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}#textOpacity4{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}#textOpacity5{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}#textOpacity6{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}#textOpacity7{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}#textOpacity8{
+    opacity: 0%;
+    transition: opacity 1.5s;
+}
+#textOpacity9{
+    opacity: 0%;
+    transition: opacity 1.5s;
 }
