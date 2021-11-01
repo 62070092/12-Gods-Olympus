@@ -278,6 +278,8 @@
   padding: 5px 5px 5px;
   margin-bottom: -600px;
   margin-left: 70px;
+  animation: btn 5s;
+  animation-duration: 10s;
 }
 
 .btn-right{
@@ -290,6 +292,8 @@
   padding: 5px 5px 5px;
   margin-bottom: -600px;
   margin-left: 10px;
+  animation: btn 5s;
+  animation-duration: 10s;
 }
 
 .btn-center{
@@ -301,6 +305,8 @@
   padding: 5px 5px 5px;
   margin-bottom: -600px;
   margin-left: 70px;
+  animation: btn 5s;
+  animation-duration: 10s;
 }
 
 .btn-left:hover{
@@ -319,4 +325,13 @@
   opacity: 5;
   background-color: burlywood;
   transform: scale(1.2);
+}
+
+@keyframes btn{
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
 }

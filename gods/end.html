@@ -33,7 +33,7 @@
         </div>
 
         <div class="header flex-center">
-            <h1 id="" class="text-header">เพราะในอดีตหากปราศความเชื่อเหล่านั้น เราอาจจะไม่สามารถก้าวข้ามผ่านช่วงเวลาอันโหดร้ายและพัฒนามาจนถึงปัจจุบัน</h1> 
+            <h1 id="textOpacity'" class="text-header">เพราะในอดีตหากปราศความเชื่อเหล่านั้น เราอาจจะไม่สามารถก้าวข้ามผ่านช่วงเวลาอันโหดร้ายและพัฒนามาจนถึงปัจจุบัน</h1> 
         </div>
 
         <div class="flex-center">
@@ -51,7 +51,7 @@
         document.body.style.setProperty("--scroll", scrollY);
         
         
-        if (scrollY+viewHeight-200<=graphY){
+        if (scrollY+viewHeight-100<=graphY){
             textOpacity.style.opacity = 0;
         }
         else{
