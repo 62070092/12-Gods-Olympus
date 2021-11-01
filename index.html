@@ -8,10 +8,6 @@
 </head>
 <body>
     <div class="container ">
-        <audio id= "audio" onloadeddata="setHalfVolume()" controls autoplay>
-            <source src="Dionysus.mp3" type="audio/mpeg">
-        </audio>
-
         <div class="header flex-center">
             <h1 id="textOpacity1" class="text-header">คุณเชื่อเรื่องเทพปกรณัม หรือไม่?</h1> 
         </div>
@@ -140,12 +136,5 @@
         }
         
     };
-
-    
-    function setHalfVolume() {
-        var myAudio = document.getElementById("audio");  
-        myAudio.volume = 0.3;
-    };
-
     </script>
 </body>
