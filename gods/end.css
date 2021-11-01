@@ -3,7 +3,7 @@
 body,html{
     height: 100%;
     margin: 0;
-    background-image: url("reference/bg-01.png");
+    background-image: url("/reference/bg-02.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body{
   background: -webkit-linear-gradient(#F0A436, #1D1308);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 .header{

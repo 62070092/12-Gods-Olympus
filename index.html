@@ -1,20 +1,69 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>12 Gods Olympus</title>
 
 </head>
 <body>
-    <div class="container">
-        <div class="txt">
-            <h1 style="font-size:10vh" class="text-center font-weight-bold text-black text-header">Begin your journey to mount olympus</h1> 
+    <div class="container ">
+        <div class="header flex-center">
+            <h1 id="" class="text-header">คุณเชื่อเรื่องเทพปกรณัม หรือไม่?</h1> 
         </div>
-        <button id="btn-enter" type=button onclick="location.href='question-0.html'" class="btn btn-warning btn-lg font-weight-bold text-white">
-            <h2>ENTER</h2>
-        </button>
+        
+        <div class="header flex-center">
+            <h1 id="" class="text-header">คุณนับถือเทพปกรณัม หรือปล่าว?</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">แน่นอนว่าบางคนไม่เชื่อเรื่องของเทพเหล่านั้นเพราะคิดว่าเป็นเพียงแค่จินตนาการ</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">แต่หากย้อนกลับไปในอดีตช่วงโบราณของชาวกรีกล่ะ?</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">ทำไมถึงมีเทพเจ้าเหล่านั้นเกิดขึ้น? ทำไมเทพเจ้าแต่ละองค์ถึงไม่เหมือนกัน และยังเป็นสัญลักษณ์ของสิ่งต่างๆที่แตกต่างกัน</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">คุณคงสงสัยเหมือนกับเราใช่หรือไม่</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">หากเป็นเช่นนั้น คุณพร้อมที่จะรู้จักเทพเหล่านั้นจากการตอบคำถามของคุณแล้วหรือยัง</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">ถ้าพร้อมแล้ว เรามาเริ่มกันเลย</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity" class="text-header">Begin your journey to mount olympus</h1> 
+        </div>
+        <div class="flex-center">
+            <button id="btn-enter" type=button onclick="location.href='/question/question-0.html'" class="start-btn">
+                <h2>ENTER</h2>
+            </button>
+        </div>
+        
     </div>
+    <script>
+        document.body.onscroll = function () {
+        let scrollY = window.scrollY;
+        let viewHeight = window.innerHeight;
+        let graphY = document.querySelector('#textOpacity').offsetTop;
+        document.body.style.setProperty("--scroll", scrollY);
+        
+        
+        if (scrollY+viewHeight-200<=graphY){
+            textOpacity.style.opacity = 0;
+        }
+        else{
+            textOpacity.style.opacity = 100;
+        }
+    };
+    </script>
 </body>
