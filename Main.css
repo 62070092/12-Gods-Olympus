@@ -4,6 +4,8 @@ body,html{
     height: 100%;
     margin: 0;
     background-image: url("reference/bg-01.png");
+    background-color: rgba(255,255,255,0.28);
+    background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -30,11 +32,19 @@ body{
 
 
 .text-header {
-  background: -webkit-linear-gradient(#F0A436, #1D1308);
+    color: #3d2d1f;
+    text-shadow: 5px 2px #fbdcbb;
+  /* background: linear-gradient(to bottom right,#F0A436, #1D1308);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 3.5rem;
-  text-align: center;
+  -webkit-text-fill-color: transparent; */
+    font-size: 3.6rem;
+    text-align: center;
+}
+.text-header-last{
+    color: #3d2d1f;
+    text-shadow: 5px 2px #fbdcbb;
+    font-size: 5rem;
+    text-align: center;
 }
 .header{
     min-height:70vh;
@@ -53,10 +63,10 @@ body{
 
 } */
 
-#textOpacity1{
+/* #textOpacity1{
     opacity: 0%;
     transition: opacity 1.5s;
-}
+} */
 #textOpacity2{
     opacity: 0%;
     transition: opacity 1.5s;
