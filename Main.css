@@ -63,10 +63,9 @@ body{
 
 } */
 
-/* #textOpacity1{
-    opacity: 0%;
-    transition: opacity 1.5s;
-} */
+#textOpacity1{
+    animation: opa 5s;
+}
 #textOpacity2{
     opacity: 0%;
     transition: opacity 1.5s;
@@ -92,4 +91,13 @@ body{
 #textOpacity9{
     opacity: 0%;
     transition: opacity 1.5s;
+}
+
+@keyframes opa{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
 }
