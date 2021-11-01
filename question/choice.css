@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+body,html{
+    height: 100%;
+    margin: 0;
+    background-image: url("/reference/bg-04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Pridi', serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+    padding: 1rem;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.card-content{
+    background:#fff;
+    border-radius:10px;
+    box-shadow:14px 14px 0px #0003;
+    padding:1em;
+    min-height:auto;
+    min-width:90%;
+    animation: animate 1s;
+}
+
+
+.row{
+    margin-bottom: 8%;
+    
+}
+.col{
+    width: 100%;
+}
+
+.choice{
+    width: 85%;
+	height: 15vh;
+    background: linear-gradient(45deg, transparent 5%, #fad37f 5%);
+    border: 0;
+    color: #000000;
+    letter-spacing: 3px;
+    line-height: 88px;
+    box-shadow: 8px 0px 0px #f89730;
+    outline: transparent;
+    position: relative;
+    font-family: 'Pridi', serif;
+    font-size: 1.4rem;
+    transition: all .35s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+
+    padding: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.choice:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg, transparent 5%, #ffb62e 5%);
+    transition: all .35s;
+  }
+  
+  .choice:hover{
+    color: black;
+  }
+  
+  .choice:hover:after{
+    width: 100%;
+  }
+  .choice h2{
+    position: relative;
+    z-index: 2;
+  }
+
+  @keyframes animate{
+    from{
+      opacity: 0.7;
+    }
+    to{
+      opacity: 1;
+    }
+  }

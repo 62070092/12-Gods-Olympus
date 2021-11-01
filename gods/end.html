@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="end.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <title>END</title>
+
+</head>
+<body>
+    <div class="container ">
+        <div class="header flex-center">
+            <h1 id="" class="text-header">แม้ปัจจุบันเราจะไม่ได้เชื่อเรื่องเทพเจ้าเหล่านี้แล้ว ความเชื่อพื้นฐานเหล่านี้เป็นสิ่งหนึ่งที่ติดตัวของมนุษย์แสดงให้เห็นว่าเราเป็นนักเล่าเรื่อง เป็นผู้ที่มีจินตนาการและแสดงให้เห็นถึงความสำคัญของความเชื่อ </h1> 
+        </div>
+        
+        <div class="header flex-center">
+            <h1 id="" class="text-header">เพราะในอดีตไม่ได้สงบสุขและสะดวกสบายอย่างปัจจุบัน อาจจะมีเรื่องอันตรายที่ไม่สามารถคาดเดาได้เกิดขึ้นได้ทุกเมื่อและสามารถพรากชีวิตของเราได้อย่างง่ายดาย</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">การมีสิ่งยึดเหนี่ยวจิตใจอาจจะเป็นหนทางเดียวที่จะช่วยให้พวกเขาสามารถผ่านพ้นช่วงเวลานั้นไปได้</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">ปัจจุบันถึงแม้จะไม่มีใครนับถือเทพปกรณัมเป็นศาสนาแล้ว แต่ชื่อของเหล่าเทพทั้งหลายก็ยังคงนำมาใช้กันอย่างแพร่หลาย </h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">ไม่ว่าจะเป็นการตั้งชื่อดวงดาว การตั้งชื่อสัตว์ชนิดใหม่ๆตามชื่อสัตว์ในเทพนิยาย หรือการตั้งชื่อภัยพิบัติต่างๆ </h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="" class="text-header">ดังนั้นเราจึงไม่ควรดูถูกความเชื่อต่างๆของคนในอดีต</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity'" class="text-header">เพราะในอดีตหากปราศความเชื่อเหล่านั้น เราอาจจะไม่สามารถก้าวข้ามผ่านช่วงเวลาอันโหดร้ายและพัฒนามาจนถึงปัจจุบัน</h1> 
+        </div>
+
+        <div class="flex-center">
+            <button id="btn-enter" type=button onclick="location.href='/other-gods/other_god.html'" class="start-btn">
+                <h2>Other Gods</h2>
+            </button>
+        </div>
+        
+    </div>
+    <script>
+        document.body.onscroll = function () {
+        let scrollY = window.scrollY;
+        let viewHeight = window.innerHeight;
+        let graphY = document.querySelector('#textOpacity').offsetTop;
+        document.body.style.setProperty("--scroll", scrollY);
+        
+        
+        if (scrollY+viewHeight-100<=graphY){
+            textOpacity.style.opacity = 0;
+        }
+        else{
+            textOpacity.style.opacity = 100;
+        }
+    };
+    </script>
+</body>

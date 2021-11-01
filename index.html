@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <title>12 Gods Olympus</title>
+
+</head>
+<body>
+    <div class="container ">
+        <div class="header flex-center">
+            <h1 id="textOpacity1" class="text-header">คุณเชื่อเรื่องเทพปกรณัม หรือไม่?</h1> 
+        </div>
+        
+        <div class="header flex-center">
+            <h1 id="textOpacity2" class="text-header">คุณนับถือเทพปกรณัม หรือเปล่า?</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity3" class="text-header">แน่นอนว่าบางคนไม่เชื่อเรื่องของเทพเหล่านั้นเพราะคิดว่าเป็นเพียงแค่จินตนาการ</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity4" class="text-header">แต่หากย้อนกลับไปในอดีตช่วงโบราณของชาวกรีกล่ะ?</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity5" class="text-header">ทำไมถึงมีเทพเจ้าเหล่านั้นเกิดขึ้น? <br>ทำไมเทพเจ้าแต่ละองค์ถึงไม่เหมือนกัน <br>และเป็นสัญลักษณ์ของสิ่งต่างๆที่แตกต่างกัน</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity6" class="text-header">คุณคงสงสัยเหมือนกับเราใช่หรือไม่</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity7" class="text-header">หากเป็นเช่นนั้น คุณพร้อมที่จะรู้จักเทพเหล่านั้นจากการตอบคำถามของคุณแล้วหรือยัง</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity8" class="text-header">ถ้าพร้อมแล้ว เรามาเริ่มกันเลย</h1> 
+        </div>
+
+        <div class="header flex-center">
+            <h1 id="textOpacity9" class="text-header">Begin your journey to mount olympus</h1> 
+        </div>
+        <div class="flex-center">
+            <button id="btn-enter" type=button onclick="location.href='/question/question-0.html'" class="start-btn">
+                <h2>ENTER</h2>
+            </button>
+        </div>
+        
+    </div>
+    <script>
+        document.body.onscroll = function () {
+        let scrollY = window.scrollY;
+        let viewHeight = window.innerHeight;
+        let high = scrollY+viewHeight-200;
+        // let text1 = document.querySelector('#textOpacity1').offsetTop;
+        let text2 = document.querySelector('#textOpacity2').offsetTop;
+        let text3 = document.querySelector('#textOpacity3').offsetTop;
+        let text4 = document.querySelector('#textOpacity4').offsetTop;
+        let text5 = document.querySelector('#textOpacity5').offsetTop;
+        let text6 = document.querySelector('#textOpacity6').offsetTop;
+        let text7 = document.querySelector('#textOpacity7').offsetTop;
+        let text8 = document.querySelector('#textOpacity8').offsetTop;
+        let text9 = document.querySelector('#textOpacity9').offsetTop;
+
+        document.body.style.setProperty("--scroll", scrollY);
+        
+        
+        // if (high<=text1){
+        //     textOpacity1.style.opacity = 0;
+            
+        // }
+        // else{
+        //     textOpacity1.style.opacity = 100;
+        // }
+
+        if (high<=text2){
+            textOpacity2.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity2.style.opacity = 100;
+        }
+        if (high<=text3){
+            textOpacity3.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity3.style.opacity = 100;
+        }
+        if (high<=text4){
+            textOpacity4.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity4.style.opacity = 100;
+        }
+        if (high<=text5){
+            textOpacity5.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity5.style.opacity = 100;
+        }
+        if (high<=text6){
+            textOpacity6.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity6.style.opacity = 100;
+        }
+        if (high<=text7){
+            textOpacity7.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity7.style.opacity = 100;
+        }
+        if (high<=text8){
+            textOpacity8.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity8.style.opacity = 100;
+        }
+        if (high<=text9){
+            textOpacity9.style.opacity = 0;
+            
+        }
+        else{
+            textOpacity9.style.opacity = 100;
+        }
+        
+    };
+    </script>
+</body>
