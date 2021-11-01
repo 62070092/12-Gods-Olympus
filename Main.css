@@ -101,3 +101,41 @@ body{
         opacity: 100%;
     }
 }
+
+.enter {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    color: #3d2d1f;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+  
+  .enter h2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .enter h2:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .enter:hover h2 {
+    padding-right: 2rem;
+
+  }
+  
+  .enter:hover h2:after {
+    opacity: 1;
+    right: 0;
+  }
