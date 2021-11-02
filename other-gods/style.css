@@ -281,6 +281,8 @@
   margin-left: 70px;
   animation: btn 5s;
   animation-duration: 10s;
+  font-family: 'Pridi', serif;
+  font-weight: bold;
 }
 
 .btn-right{
@@ -295,6 +297,8 @@
   margin-left: 10px;
   animation: btn 5s;
   animation-duration: 10s;
+  font-family: 'Pridi', serif;
+  font-weight: bold;
 }
 
 .btn-center{
@@ -308,6 +312,8 @@
   margin-left: 70px;
   animation: btn 5s;
   animation-duration: 10s;
+  font-family: 'Pridi', serif;
+  font-weight: bold;
 }
 
 .btn-left:hover{
